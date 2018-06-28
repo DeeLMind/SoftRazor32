@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BranchInst.cpp" />
+    <ClCompile Include="MemOperand.cpp" />
+    <ClCompile Include="MnemonicTable.cpp" />
+    <ClCompile Include="Operand.cpp" />
+    <ClCompile Include="OpSize.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="ParseTest.cpp" />
+    <ClCompile Include="Prefix.cpp" />
+    <ClCompile Include="RegTable.cpp" />
+    <ClCompile Include="Validator.cpp" />
+    <ClCompile Include="Translator.cpp" />
+    <ClCompile Include="XEDParse.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BranchInst.h" />
+    <ClInclude Include="MemOperand.h" />
+    <ClInclude Include="MnemonicTable.h" />
+    <ClInclude Include="Operand.h" />
+    <ClInclude Include="OpSize.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="ParseTest.h" />
+    <ClInclude Include="Prefix.h" />
+    <ClInclude Include="RegTable.h" />
+    <ClInclude Include="Translator.h" />
+    <ClInclude Include="Validator.h" />
+    <ClInclude Include="xed2\include\xed-address-width-enum.h" />
+    <ClInclude Include="xed2\include\xed-agen.h" />
+    <ClInclude Include="xed2\include\xed-attribute-enum.h" />
+    <ClInclude Include="xed2\include\xed-attributes.h" />
+    <ClInclude Include="xed2\include\xed-category-enum.h" />
+    <ClInclude Include="xed2\include\xed-chip-enum.h" />
+    <ClInclude Include="xed2\include\xed-common-defs.h" />
+    <ClInclude Include="xed2\include\xed-common-hdrs.h" />
+    <ClInclude Include="xed2\include\xed-convert-table-init.h" />
+    <ClInclude Include="xed2\include\xed-decode-cache.h" />
+    <ClInclude Include="xed2\include\xed-decode.h" />
+    <ClInclude Include="xed2\include\xed-decoded-inst-api.h" />
+    <ClInclude Include="xed2\include\xed-decoded-inst.h" />
+    <ClInclude Include="xed2\include\xed-disas.h" />
+    <ClInclude Include="xed2\include\xed-encode.h" />
+    <ClInclude Include="xed2\include\xed-encoder-gen-defs.h" />
+    <ClInclude Include="xed2\include\xed-encoder-hl.h" />
+    <ClInclude Include="xed2\include\xed-encoder-iforms.h" />
+    <ClInclude Include="xed2\include\xed-error-enum.h" />
+    <ClInclude Include="xed2\include\xed-exception-enum.h" />
+    <ClInclude Include="xed2\include\xed-extension-enum.h" />
+    <ClInclude Include="xed2\include\xed-flag-action-enum.h" />
+    <ClInclude Include="xed2\include\xed-flag-enum.h" />
+    <ClInclude Include="xed2\include\xed-flags.h" />
+    <ClInclude Include="xed2\include\xed-format-options.h" />
+    <ClInclude Include="xed2\include\xed-gen-table-defs.h" />
+    <ClInclude Include="xed2\include\xed-get-time.h" />
+    <ClInclude Include="xed2\include\xed-iclass-enum.h" />
+    <ClInclude Include="xed2\include\xed-iform-enum.h" />
+    <ClInclude Include="xed2\include\xed-iform-map.h" />
+    <ClInclude Include="xed2\include\xed-iformfl-enum.h" />
+    <ClInclude Include="xed2\include\xed-ild.h" />
+    <ClInclude Include="xed2\include\xed-immdis.h" />
+    <ClInclude Include="xed2\include\xed-immed.h" />
+    <ClInclude Include="xed2\include\xed-init-pointer-names.h" />
+    <ClInclude Include="xed2\include\xed-init.h" />
+    <ClInclude Include="xed2\include\xed-inst-printer.h" />
+    <ClInclude Include="xed2\include\xed-inst.h" />
+    <ClInclude Include="xed2\include\xed-interface.h" />
+    <ClInclude Include="xed2\include\xed-isa-set-enum.h" />
+    <ClInclude Include="xed2\include\xed-isa-set.h" />
+    <ClInclude Include="xed2\include\xed-machine-mode-enum.h" />
+    <ClInclude Include="xed2\include\xed-nonterminal-enum.h" />
+    <ClInclude Include="xed2\include\xed-operand-accessors.h" />
+    <ClInclude Include="xed2\include\xed-operand-action-enum.h" />
+    <ClInclude Include="xed2\include\xed-operand-action.h" />
+    <ClInclude Include="xed2\include\xed-operand-convert-enum.h" />
+    <ClInclude Include="xed2\include\xed-operand-ctype-enum.h" />
+    <ClInclude Include="xed2\include\xed-operand-ctype-map.h" />
+    <ClInclude Include="xed2\include\xed-operand-element-type-enum.h" />
+    <ClInclude Include="xed2\include\xed-operand-element-xtype-enum.h" />
+    <ClInclude Include="xed2\include\xed-operand-enum.h" />
+    <ClInclude Include="xed2\include\xed-operand-storage.h" />
+    <ClInclude Include="xed2\include\xed-operand-type-enum.h" />
+    <ClInclude Include="xed2\include\xed-operand-values-interface.h" />
+    <ClInclude Include="xed2\include\xed-operand-visibility-enum.h" />
+    <ClInclude Include="xed2\include\xed-operand-width-enum.h" />
+    <ClInclude Include="xed2\include\xed-portability.h" />
+    <ClInclude Include="xed2\include\xed-reg-class-enum.h" />
+    <ClInclude Include="xed2\include\xed-reg-class.h" />
+    <ClInclude Include="xed2\include\xed-reg-enum.h" />
+    <ClInclude Include="xed2\include\xed-reg-role-enum.h" />
+    <ClInclude Include="xed2\include\xed-state.h" />
+    <ClInclude Include="xed2\include\xed-syntax-enum.h" />
+    <ClInclude Include="xed2\include\xed-types.h" />
+    <ClInclude Include="xed2\include\xed-util.h" />
+    <ClInclude Include="xed2\include\xed-version.h" />
+    <ClInclude Include="XEDParse.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05FD4520-9761-3F68-5034-D8E8EDB3B729}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)CommLibDbg\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>XEDParse_x86</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)CommLibDbg\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>XEDParse_x86</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>
+    </LinkIncremental>
+    <OutDir>$(SolutionDir)bin\x64\</OutDir>
+    <TargetName>XEDParse</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental />
+    <OutDir>$(SolutionDir)bin\x64\</OutDir>
+    <TargetName>XEDParse</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;XEDPARSE_BUILD;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalOptions>/wd 4244 /wd 4267 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>$(SolutionDir)\xed2\lib\libxed_x86.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>./xed2/lib/libxed_x86.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;XEDPARSE_BUILD;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalOptions>/wd 4244 /wd 4267 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>$(SolutionDir)\xed2\lib\libxed_x86.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>./xed2/lib/libxed_x86.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;_USRDLL;XEDPARSE_BUILD;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalOptions>/wd 4244 /wd 4267 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>$(SolutionDir)\xed2\lib\libxed_x64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;_USRDLL;XEDPARSE_BUILD;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalOptions>/wd 4244 /wd 4267 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>$(SolutionDir)\xed2\lib\libxed_x64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,33 @@
+虚拟对话框
+hook检测
+
+分析修改后的代码的长度
+根据长度取得原Item Num
+Change
+修改后Item Num
+realloc
+
+AntiHook
+
+Structured Data View
+
+
+Anti int1 单步中断
+
+仿VS的输出、记录窗口
+
+符号库解析
+
+调试数据库
+用字节描述字节
+
+从内存块起始地址分析
+
+jmp截断
+
+lib/dxguid.lib
+lib/ntdll.lib
+lib/hmm32.lib
+lib/XEDParse_slib.lib
+
+IAT 安全调用
